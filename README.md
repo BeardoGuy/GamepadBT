@@ -1,14 +1,20 @@
-# GamepadBT for Symbian S60v1
+# GamepadBT for Symbian S60
 ![Screenshot_N-Gage_QD](https://github.com/BeardoGuy/GamepadBT/blob/main/Screenshots/Scr.%20shot.Main.jpg?raw=true)
 
 Project to convert Symbian Series60 mobile into a Bluetooth Gamepad specifically the Nokia N-Gage and N-Gage QD.  
 It should work with all Symbian Series 60 1st and 2nd Edition devices.  
 Tested on Nokia N-gage QD with v4.60 firmware.
 
-Requires "Python for S60" (PyS60) installed to work, download the appropriate version from here:
+# Software:
+1) Requires "Python for S60" (PyS60) installed to work, download the appropriate version from here:
+* For Series 60 1st Edition (N-Gage and N-Gage QD), download from this link: [Download](https://sourceforge.net/projects/pys60/files/pys60/1.3.1/PythonForS60_1stEd_1_3_1.SIS/download)  
+* For Series 60 2nd Edition (6600, 3230, 7610 etc.), download from this link: [Download](https://sourceforge.net/projects/pys60/files/pys60/1.3.23/PythonForS60_1_3_23_2ndEd.SIS/download)  
 
-For Series 60 1st Edition (N-Gage and N-Gage QD), download from this link: [Download](https://sourceforge.net/projects/pys60/files/pys60/1.3.1/PythonForS60_1stEd_1_3_1.SIS/download)  
-For Series 60 2nd Edition (6600, 3230, 7610 etc.), download from this link: [Download](https://sourceforge.net/projects/pys60/files/pys60/1.3.23/PythonForS60_1_3_23_2ndEd.SIS/download)  
+2) Download the SIS file and Arduino Code from the [Releases](https://github.com/BeardoGuy/GamepadBT/releases/) 
 
-Download the SIS file and Arduino Code from the [Releases](https://github.com/BeardoGuy/GamepadBT/releases/) 
+# Hardware:
 
+You'll need to make a USB Bluetooth Receiver (no soldering required) for the client side (for PC, Android, or any other device supporting a USB Gamepad)
+Required components:
+* HC-05/HC-06 or any other Serial Bluetooth Module
+* ATtiny85 USB development board (aka DigiSpark)
