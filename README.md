@@ -15,13 +15,14 @@ Tested on Nokia N-gage QD with v4.60 firmware.
 # Hardware:
 ![Wiring_diagram_Digispark_HC06](https://github.com/BeardoGuy/GamepadBT/blob/main/Schematics/Digispark_Wiring_Diagram-001.jpg?raw=true)
 
-You'll need to make a USB Bluetooth Receiver (no soldering required) for the client side (for PC, Android, or any other device supporting a USB Gamepad)
+1) You'll need to make a USB Bluetooth Receiver (no soldering required) for the client side (for PC, Android, or any other device supporting a USB Gamepad)
 
 Required components:
 * HC-05/HC-06 or any other Serial Bluetooth Module
 * ATtiny85 USB development board (aka DigiSpark)  
 
-Upload the Arduino Code to the Digispark using Arduino IDE
+2) Upload the Arduino Code to the Digispark using Arduino IDE.
+* Requires Arduino DigisparkJoystick Library from: https://github.com/digistump/DigisparkArduinoIntegration/tree/master/libraries/DigisparkJoystick
 
 # Connection Process:
 * Plug the receiver you made into any USB Gamepad supporting device (PC, Android, Game console,etc.) and it will show up as a USB Gamepad. 
