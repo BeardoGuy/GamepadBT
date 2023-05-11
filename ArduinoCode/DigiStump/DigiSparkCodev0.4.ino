@@ -14,7 +14,7 @@ byte btnChange=0;
 SoftSerial BLE(P_RX, P_TX);
 
 void setup() {
-  BLE.begin(2400); // Initialize the serial port
+  BLE.begin(9600); // Initialize the serial port to 9600 bps. Change it to your BT module's default baudrate.
   
   //Centering all Joysticks and resetting the buttons
   DigiJoystick.setX((byte) (0x7F));
