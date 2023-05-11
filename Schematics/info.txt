@@ -1,0 +1,1 @@
+Any Serial Bluetooth module should work and you can get away with connecting only 1 wire (RX) of the bluetooth module to the Microcontroller as we are only receiving keystrokes from the Mobile Application and not sending anything back.
