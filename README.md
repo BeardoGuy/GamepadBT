@@ -26,4 +26,8 @@ Upload the Arduino Code to the Digispark using Arduino IDE
 # Connection Process:
 * Plug the receiver you made into any USB Gamepad supporting device (PC, Android, Game console,etc.) and it will show up as a USB Gamepad. 
 * Install GamepadBT app on N-Gage and search for your HC06 Bluetooth module and enter the passcode for pairing (default is 0000 or 1234)  
-* Now the N-Gage should work seamlessly as a wireless gamepad.
+* Now the N-Gage should work seamlessly as a wireless gamepad.  
+
+
+If you like my work, you can buy me a cup of coffee:)  
+BTC address: bc1qgy37r3ns6lqr00yzxkc0ednhy76lf3yqrqcx5e
