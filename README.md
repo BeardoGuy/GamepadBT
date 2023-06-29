@@ -1,6 +1,6 @@
 # GamepadBT for Symbian S60
-![Screenshot_N-Gage_QD](https://github.com/BeardoGuy/GamepadBT/blob/main/Screenshots/ScreenshotMainv3.01.jpg?raw=true)
-    ![Screenshot_N-Gage_QD](https://github.com/BeardoGuy/GamepadBT/blob/main/Screenshots/Scr.%20shot.Main.jpg?raw=true)
+
+![Screenshot_N-Gage_QD](https://github.com/BeardoGuy/GamepadBT/blob/main/Screenshots/GamepadBT_v3.01.jpg?raw=true)
 
 Project to convert Symbian Series60 mobile into a Bluetooth Gamepad specifically the Nokia N-Gage and N-Gage QD.  
 It should work with all Symbian Series 60 1st and 2nd Edition devices.  
