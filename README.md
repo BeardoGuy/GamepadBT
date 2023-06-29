@@ -1,5 +1,6 @@
 # GamepadBT for Symbian S60
-![Screenshot_N-Gage_QD](https://github.com/BeardoGuy/GamepadBT/blob/main/Screenshots/Scr.%20shot.Main.jpg?raw=true)
+![Screenshot_N-Gage_QD](https://github.com/BeardoGuy/GamepadBT/blob/main/Screenshots/ScreenshotMainv3.01.jpg?raw=true)
+    ![Screenshot_N-Gage_QD](https://github.com/BeardoGuy/GamepadBT/blob/main/Screenshots/Scr.%20shot.Main.jpg?raw=true)
 
 Project to convert Symbian Series60 mobile into a Bluetooth Gamepad specifically the Nokia N-Gage and N-Gage QD.  
 It should work with all Symbian Series 60 1st and 2nd Edition devices.  
@@ -21,8 +22,9 @@ Required components:
 * HC-05/HC-06 or any other Serial Bluetooth Module
 * ATtiny85 USB development board (aka DigiSpark)  
 
-2) Upload the Arduino Code to the Digispark using Arduino IDE.
+2) Upload the Arduino Code to the Digispark using Arduino IDE. Make sure you have already added "Digistump AVR Boards" from Boards manager in the Arduino IDE by clicking on Tools > Boards > Boards Manager and type "Digistump" in the search box and click install.
 * Requires Arduino DigisparkJoystick Library from: https://github.com/digistump/DigisparkArduinoIntegration/tree/master/libraries/DigisparkJoystick
+* Requires Arduino Digispark_SoftSerial-INT0 Library from: https://github.com/J-Rios/Digispark_SoftSerial-INT0
 
 # Connection Process:
 * Plug the receiver you made into any USB Gamepad supporting device (PC, Android, Game console,etc.) and it will show up as a USB Gamepad. 
