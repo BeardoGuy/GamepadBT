@@ -17,7 +17,7 @@ Tested on Nokia N-gage QD with v4.60 firmware.
 If you want to use the N-Gage as Gamepad only for Windows PC then you can try the new [GamepadBT-Server](https://github.com/BeardoGuy/GamepadBT-Server/) program. Additional Hardware is not required.
 * The Server Program will only work if your N-Gage/Symbian device can connect to your PC over Bluetooth normally and can transfer files without error.(otherwise see the Hardware section). Some modern inbuilt Bluetooth adapters cannot connect to these older Symbian devices, so please try to pair and send a file before using.
   
-# Hardware: (Only needed if you want to use make a Universal USB dongle for all devices or if the Server program doesn't work for you or if you want native Direct Input Joystick support)
+# Hardware: (Only needed if you want to make a Universal USB dongle for all devices or if the Server program doesn't work for you or if you want native Direct Input Joystick support)
 ![Wiring_diagram_Digispark_HC06](https://github.com/BeardoGuy/GamepadBT/blob/main/Schematics/Digispark_Wiring_Diagram-001.jpg?raw=true)
 
 1) You'll need to make a USB Bluetooth Receiver (no soldering required) for the client side (for PC, Android, or any other device supporting a USB Gamepad)
