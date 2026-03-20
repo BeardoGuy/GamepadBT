@@ -37,4 +37,4 @@ Required components:
 
 
 If you like my work, you can buy me a cup of coffee:)  
-BTC address: bc1qgy37r3ns6lqr00yzxkc0ednhy76lf3yqrqcx5e
+BTC address: bc1qzn9tzpkk9fryh5srhgxhghxy2d7ql9usz23p9e
